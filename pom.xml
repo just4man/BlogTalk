@@ -111,6 +111,10 @@
                     <encoding>utf-8</encoding>
                 </configuration>
             </plugin>
+            <!--<plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>srping-boot-maven-plugin</artifactId>
+            </plugin>-->
         </plugins>
     </build>
 </project>
