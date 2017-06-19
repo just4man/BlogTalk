@@ -1,3 +1,10 @@
-\.idea/
-*\.iml
-**/target/
+.idea/
+*.iml
+rebel.xml
+class
+target
+.classpath
+.settings
+build/
+.project
+/target/
