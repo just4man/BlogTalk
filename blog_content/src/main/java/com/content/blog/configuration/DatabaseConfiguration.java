@@ -15,7 +15,7 @@ import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import javax.sql.DataSource;
 
 /**
- * Created by lenovo on 2017/3/24.
+ * Created by zhouzifan on 2017/6/15.
  */
 @Configuration
 //TODO mapper扫描路径需要修改

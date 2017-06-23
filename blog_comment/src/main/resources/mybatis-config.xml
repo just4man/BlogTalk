@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+            <!--使mybatis支持数据库a_b ==> javaBean的aB转化 -->
+            <setting name="mapUnderscoreToCamelCase" value="true"/>
+            <setting name="logImpl" value="STDOUT_LOGGING" />
+        <!--使mybatis支持数据库a_b ==> javaBean的aB转化 -->
+    </settings>
+    <!--<plugins>-->
+         <!--<plugin interceptor="com.lecloud.bes.interceptor.PageablePrepareInterceptor"/>-->
+    <!--</plugins>-->
+    <mappers>
+
+    </mappers>
+</configuration>

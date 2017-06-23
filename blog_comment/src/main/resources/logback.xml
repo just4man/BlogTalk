@@ -10,7 +10,7 @@
               value="${CONSOLE_LOG_PATTERN:-%clr(%d{yyyy-MM-dd HH:mm:ss.SSS}){faint} %clr(${LOG_LEVEL_PATTERN:-%5p}) %clr(${PID:- }){magenta} %clr(---){faint} %clr([%15.15t]){faint} %clr(%-40.40logger{39}){cyan} %clr(:){faint} %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}}" />
     <property name="FILE_LOG_PATTERN"
               value="%d{yyyy-MM-dd HH:mm:ss.SSS} ${LOG_LEVEL_PATTERN:-%5p} ${PID:- } --- [%t] %-40.40logger{39} : %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}" />
-    <property name="LOG_PATH" value="/letv/logs/domain/" />
+    <property name="LOG_PATH" value="/blog/logs/comment/" />
 
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
@@ -25,7 +25,7 @@
         <rollingPolicy
                 class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
                 <!-- 需要修改日志保存路径 -->
-                <fileNamePattern>/letv/logs/domain/domain-%d{yyyy-MM-dd}.log
+                <fileNamePattern>/blog/logs/comment/comment-%d{yyyy-MM-dd}.log
                 </fileNamePattern>
                 <maxHistory>10</maxHistory>
         </rollingPolicy>
